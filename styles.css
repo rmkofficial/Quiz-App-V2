@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#options button.correct {
+  background-color: green;
+}
+
+#options button.wrong {
+  background-color: red;
+}
+
+
+#start-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 45px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 100px;
+}
+
+#start-button:hover {
+  background-color: #3e8e41;
+}
+
+p {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#next-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#next-button:hover {
+  background-color: #3e8e41;
+}
+
+#finish-button {
+  background-color: #bb603d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#finish-button:hover {
+  background-color: #a34f2d;
+}
+
+#options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: auto;
+  margin: 10px 100px;
+}
+
+#options button {
+  background-color: #486680;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#options button:hover {
+  background-color: #4c789e;
+}
+
+#high-scores-button {
+  background-color: #bb603d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#high-scores-button:hover {
+  background-color: #a34f2d;
+}
+
+#high-scores-list li {
+  list-style-type: none;
+}
+
+#high-scores-list li{
+  margin: 10px 100px;
+  font-size: 30px;
+}
+
+#reset-button {
+  background-color: #bb603d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#reset-button:hover {
+  background-color: #a34f2d;
+}
+
+#restart-button {
+  background-color: #bb603d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#restart-button:hover {
+  background-color: #a34f2d;
+}
+
