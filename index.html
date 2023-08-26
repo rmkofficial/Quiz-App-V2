@@ -3,28 +3,34 @@
   <head>
     <title>Quiz App</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <h1>Quiz App</h1>
     <button id="start-button">Başla</button>
+
+    <!-- Quiz Container -->
     <div id="quiz-container" class="hidden">
       <p id="question"></p>
       <div id="options"></div>
-      <button id="next-button" class="">Sonraki Soru</button>
+      <button id="next-button">Sonraki Soru</button>
       <button id="finish-button" class="hidden">Tamamla</button>
     </div>
+
+    <!-- Result Container -->
     <div id="result-container" class="hidden">
       <h2>Sonuçlar</h2>
       <p>Adınız: <span id="user-name"></span></p>
       <p>Skorunuz: <span id="user-score"></span></p>
       <button id="high-scores-button">Yüksek Skorlar</button>
     </div>
+
+    <!-- High Scores Container -->
     <div id="high-scores-container" class="hidden">
       <h2>Yüksek Skorlar</h2>
       <ul id="high-scores-list"></ul>
       <button id="reset-button">Temizle</button>
       <button id="restart-button">Tekrar</button>
     </div>
-    <script type="module" src="script.js"></script>
   </body>
 </html>
